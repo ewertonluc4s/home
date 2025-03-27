@@ -221,6 +221,14 @@ body {
 
 .footer-text {
     font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer-risk {
+    font-size: 0.8rem;
+    color: #ccc;
+    max-width: 90%;
+    margin: 0 auto;
 }
 
 /* Media Queries para responsividade */
@@ -277,5 +285,9 @@ body {
 
     .section-title {
         font-size: 1.5rem;
+    }
+
+    .footer-risk {
+        font-size: 0.7rem;
     }
 }
