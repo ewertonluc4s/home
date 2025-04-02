@@ -23,13 +23,8 @@ body {
     align-items: center;
 }
 
-.header-logo-link {
-    text-decoration: none;
-}
-
-.header-logo {
-    height: 40px; /* Ajuste o tamanho da logo conforme necessário */
-    width: auto;
+.header-title {
+    font-size: 1.5rem;
 }
 
 .nav-list {
@@ -176,6 +171,22 @@ body {
     display: block;
 }
 
+/* Estilos da seção da plataforma recomendada */
+.platform {
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.platform-logo-link {
+    text-decoration: none;
+}
+
+.platform-logo {
+    height: 50px; /* Ajuste o tamanho da logo conforme necessário */
+    width: auto;
+}
+
 /* Estilos da seção de contato */
 .contact {
     padding: 3rem 1rem;
@@ -289,5 +300,9 @@ body {
 
     .footer-risk {
         font-size: 0.7rem;
+    }
+
+    .platform-logo {
+        height: 40px; /* Reduz o tamanho da logo em telas menores */
     }
 }
