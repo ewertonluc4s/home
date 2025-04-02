@@ -173,9 +173,15 @@ body {
 
 /* Estilos da seção da plataforma recomendada */
 .platform {
-    padding: 2rem 1rem;
+    padding: 1.5rem 1rem;
     text-align: center;
     background-color: #f4f4f4;
+}
+
+.platform-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
 }
 
 .platform-logo-link {
@@ -183,7 +189,7 @@ body {
 }
 
 .platform-logo {
-    height: 50px; /* Ajuste o tamanho da logo conforme necessário */
+    height: 30px; /* Tamanho ajustado para harmonia com o site */
     width: auto;
 }
 
@@ -279,6 +285,10 @@ body {
         max-width: 100%;
         padding: 0 1rem;
     }
+
+    .platform-title {
+        font-size: 1.3rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -302,7 +312,11 @@ body {
         font-size: 0.7rem;
     }
 
+    .platform-title {
+        font-size: 1.2rem;
+    }
+
     .platform-logo {
-        height: 40px; /* Reduz o tamanho da logo em telas menores */
+        height: 25px; /* Reduz ainda mais em telas pequenas */
     }
 }
